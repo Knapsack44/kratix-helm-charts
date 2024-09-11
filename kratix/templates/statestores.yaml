@@ -18,6 +18,7 @@ spec:
   insecure: {{ .insecure }}
   {{- end }}
 {{ if .secretRef.values }}
+asdasd
 ---
 apiVersion: v1
 kind: Secret
